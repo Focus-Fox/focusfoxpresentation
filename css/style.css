@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kalam:wght@300;400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kalam:wght@300;400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  color:#143f68;
+}
+
+.top {
+  background:#143f68;
+  display:flex;
+  align-items:center;
+  width:100%;
+  height:150px;
+  justify-content:space-between;
+  padding: 0 20px;
+}
+
+
+
+header {
+  font-family: "Raleway", serif;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  /* background: #143f68; */
+  color: white;
+  justify-content:flex-start;
+ 
+}
+
+.fox-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex: 0 1 auto; */
+  text-align:center;
+  width:60%;
+}
+
+.fox-logo img {
+  height: 70rem; 
+  width: 65rem;
+  max-width:100%;
+  object-fit:contain;
+  margin-left:12rem;
+}
+
+li {
+  padding: 0.25rem;
+  list-style-type: none;
+}
+h2 {
+  margin: 2rem;
+}
+
+.logo { font-size: xx-large;
+  letter-spacing: 3px;
+  flex:1;
+  text-align:left;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly; 
+  width: auto; 
+  margin-right:4rem;
+  /* flex-grow: 5;
+  margin-right: 300px;
+  padding-right:500px; */
+}
+
+.navlink {
+  list-style: none;
+  margin: 0;
+}
+
+.navlink a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.burger {
+  font-size: 1.2em;
+  display: none;
+}
+
+article {
+  text-align: center;
+  padding-top:1rem;
+}
+
+
+h3 {font-family: "Raleway", serif;
+  font-size: x-large;
+  text-align: center;
+  border-bottom: 3px solid #f18a8a;
+  display: inline;
+  
+}
+.wrapup{
+  padding:1rem;
+}
+
+
+h4{
+  font-family: "Open Sans", sans-serif;
+}
+
+p{margin:2rem 5rem 2rem 5rem;
+  font-family: "Open Sans", sans-serif;}
+
+footer img{
+  width:100%;
+  max-width:2000px;
+}
+
+/* ourteamcss */
+
+.about{text-align:center;
+padding:2rem;}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  gap: 20px; /* Adds space between grid items */
+}
+
+.headshot{border-radius:50%;}
+
+i{font-size:x-large;
+color:#143f68;}
+
+/* ourprocesscss */
+
+.processfocusfox h3{
+  font-size:x-large;
+}
+
+.image-row {
+  display: flex; 
+  justify-content: space-between; 
+
+  gap: 10px; 
+  width: 100%; 
+  
+  margin: 0 auto; 
+  
+}
+
+.image-item {
+  flex: 1; 
+  margin-top:2rem ; 
+  margin-bottom:1rem;
+  overflow: hidden;
+}
+
+.layoutcaption{
+  font-size: large;
+}
+
+.imgcaption{display:grid;
+  grid-template-columns: 1fr 2fr;}
+
+.caption{
+  padding-top:4rem;
+}
+
+.leftcaption{display:grid;
+  grid-template-columns: 1fr 2fr;}
+
+
+
+@media (max-width: 700px) {
+  .burger {
+    display: block;
+  }
+
+  .nav {
+    margin: 0;
+    background:#143f68;
+    color:white;
+    position: absolute;
+    right: 0%;
+    top: 150px;
+    width: 50%;
+    height: calc(100% - 200px);
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    transition: all 400ms;
+    display:none;
+
+  }
+.nav-active{
+  display:flex;
+}
+}
