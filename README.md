@@ -1,4 +1,3 @@
 # FocusFoxPresentation
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/Caden-Foley/pen/oNKmrGm](https://codepen.io/Caden-Foley/pen/oNKmrGm).
-
+focus fox presentation created by caden with content supplied by phoenix and project created by our team 
