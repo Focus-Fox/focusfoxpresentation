@@ -100,6 +100,18 @@ h3 {font-family: "Raleway", serif;
   display: inline;
   
 }
+
+.foxlink{
+  color: #143f68; 
+  text-decoration: none;
+  border-bottom: 3px solid #f18a8a;
+  font-size:large;
+}
+
+.foxlink:hover{
+  font-size:x-large;
+}
+
 .wrapup{
   padding:1rem;
 }
@@ -150,6 +162,18 @@ color:#143f68;}
   
 }
 
+.kanbanimage{
+  padding-left:2rem;
+}
+
+.pdffox{
+  color: #143f68;
+}
+.processlink{color: #143f68; font-size:large ;
+border-bottom: solid 3px #f18a8a;
+text-decoration:none;}
+
+
 .image-item {
   flex: 1; 
   margin-top:2rem ; 
@@ -170,6 +194,21 @@ color:#143f68;}
 
 .leftcaption{display:grid;
   grid-template-columns: 1fr 2fr;}
+
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .image-box {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between image and caption */
+  }
+
+
 
 
 
